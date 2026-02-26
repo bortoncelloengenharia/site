@@ -1,0 +1,23 @@
+{
+	"internal": {
+		"home": "index.html",
+		"quemSomos": "quem-somos.html",
+		"solucoes": "solucoes.html",
+		"solucoesSistemas": "solucoes.html#sistemas",
+		"solucoesLocaisDeAplicacao": "solucoes.html#locaisDeAplicacao",
+		"solucoesTampas": "solucoes.html#tampas",
+		"solucoesLaudosTecnicos": "solucoes.html#laudosTecnicos",
+		"diferenciais": "index.html#diferenciais",
+		"clientes": "clientes.html",
+		"imagens": "imagens.html",
+		"contato": "contato.html"
+	},
+	"external": {
+		"email": "mailto:contato@bortoncelloengenharia.com.br",
+		"linkedin": "https://www.linkedin.com/company/bortoncelloengenharia",
+		"instagram": "https://www.instagram.com/bortoncello.engenharia",
+		"whatsapp": "https://api.whatsapp.com/send?phone=555130599200&text=Ol%C3%A1!+Gostaria+de+saber+mais+sobre+o+trabalho+da+bortoncello+e+solicitar+uma+visita+t%C3%A9cnica!",
+		"googleMaps": "https://www.google.com/maps/place/Bortoncello+Engenharia+de+Impermeabiliza%C3%A7%C3%A3o/@-29.9448175,-51.1789899,17z/data=!3m1!4b1!4m6!3m5!1s0x9519716359cb90f7:0x1e5a55c8c2b16842!8m2!3d-29.9448175!4d-51.1789899!16s%2Fg%2F11zjw7xghm",
+		"googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.203748614189!2d-51.178989900000005!3d-29.9448175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519716359cb90f7%3A0x1e5a55c8c2b16842!2sBortoncello%20Engenharia%20de%20Impermeabiliza%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1770123354892!5m2!1spt-BR!2sbr"
+	}
+}

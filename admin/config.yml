@@ -1,0 +1,74 @@
+# BACKEND: Usa Git Gateway do Netlify
+backend:
+   name: git-gateway
+   branch: main
+   commit_messages:
+      create: "Criado: {{collection}}/{{slug}}"
+      update: "Atualizado: {{collection}}/{{slug}}"
+      delete: "Deletado: {{collection}}/{{slug}}"
+      uploadMedia: "Upload: {{path}}"
+      deleteMedia: "Delete: {{path}}"
+
+site_domain: bortoncelloengenharia.com.br
+#publish_mode: editorial_workflow
+media_folder: "assets/images/galeriaImagens"
+public_folder: "/assets/images/galeriaImagens"
+
+collections:
+   - name: "galeriaDeImagens" # Nome interno
+     label: "Imagens Antes/Depois"
+     folder: "data/galeriaDeImagens"
+     create: true
+     delete: true
+     slug: "{{categoria}}-{{ordem}}"
+
+     fields:
+        # CATEGORIA (dropdown)
+        - label: "Categoria"
+          name: "categoria"
+          widget: "select"
+          required: true
+          options:
+             - {label: "Lajes", value: "lajes"}
+             - {label: "Caixas d'Água", value: "caixasDagua"}
+             - {label: "Marquises", value: "marquises"}
+             - {label: "Tampas", value: "tampas"}
+
+        # TÍTULO (opcional)
+        - label: "Título do Projeto"
+          name: "titulo"
+          widget: "string"
+          required: false
+
+        # IMAGEM ANTES (upload)
+        - label: "Imagem ANTES"
+          name: "antes"
+          widget: "image"
+          required: true
+
+        # TEXTO ALT DA IMAGEM ANTES
+        - label: "Descrição da imagem ANTES"
+          name: "alt_antes"
+          widget: "string"
+          default: "Imagem antes"
+          required: true
+
+        # IMAGEM DEPOIS (upload)
+        - label: "Imagem DEPOIS"
+          name: "depois"
+          widget: "image"
+          required: true
+
+        # TEXTO ALT DA IMAGEM DEPOIS
+        - label: "Descrição da imagem DEPOIS"
+          name: "alt_depois"
+          widget: "string"
+          default: "Imagem depois"
+          required: true
+
+        # ORDEM
+        - label: "Ordem"
+          name: "ordem"
+          widget: "number"
+          default: 99
+          value_type: "int"

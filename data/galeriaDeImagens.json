@@ -1,0 +1,120 @@
+{
+  "lajes": [
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/lajes23A.webp",
+        "alt": "Imagem de laje antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/lajes23D.webp",
+        "alt": "Imagem de laje depois"
+      },
+      "ordem": 1
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/lajes43A.webp",
+        "alt": "Imagem de laje antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/lajes43D.webp",
+        "alt": "Imagem de laje depois"
+      },
+      "ordem": 2
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/lajes53A.webp",
+        "alt": "Imagem de laje antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/lajes53D.webp",
+        "alt": "Imagem de laje depois"
+      },
+      "ordem": 3
+    }
+  ],
+  "caixasDagua": [
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/caixaDagua1A.webp",
+        "alt": "Imagem de caixa d'água antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/caixaDagua1D.webp",
+        "alt": "Imagem de caixa d'água depois"
+      },
+      "ordem": 1
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/caixaDagua4A.webp",
+        "alt": "Imagem de caixa d'água antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/caixaDagua4D.webp",
+        "alt": "Imagem de caixa d'água depois"
+      },
+      "ordem": 2
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/caixaDagua33A.webp",
+        "alt": "Imagem de caixa d'água antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/caixaDagua33D.webp",
+        "alt": "Imagem de caixa d'água depois"
+      },
+      "ordem": 3
+    }
+  ],
+  "marquises": [
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/marquise2A.webp",
+        "alt": "Imagem de marquise antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/marquise2D.webp",
+        "alt": "Imagem de marquise depois"
+      },
+      "ordem": 1
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/marquise3A.webp",
+        "alt": "Imagem de marquise antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/marquise3D.webp",
+        "alt": "Imagem de marquise depois"
+      },
+      "ordem": 2
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/marquise6A.webp",
+        "alt": "Imagem de marquise antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/marquise6D.webp",
+        "alt": "Imagem de marquise depois"
+      },
+      "ordem": 3
+    }
+  ],
+  "tampas": [
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/tampa1A.webp",
+        "alt": "Imagem de tampa antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/tampa1D.webp",
+        "alt": "Imagem de tampa depois"
+      },
+      "ordem": 1
+    }
+  ]
+}

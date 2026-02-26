@@ -1,0 +1,110 @@
+{
+	"home": {
+		"intro": {
+			"solucoes": {
+				"src": "assets/images/solucoesEmImpermeabilizacao.webp",
+				"alt": "Imagem representativa"
+			},
+			"protecao": {
+				"src": "assets/images/protecaoSobMedida.webp",
+				"alt": "Imagem representativa"
+			},
+			"eficiencia": {
+				"src": "assets/images/eficienciaESeguranca.webp",
+				"alt": "Imagem representativa"
+			},
+			"laudos": {
+				"src": "assets/images/laudosTecnicos.webp",
+				"alt": "Imagem representativa"
+			}
+		},
+		"entendaComoFunciona": {
+			"droplet": {
+				"src": "assets/images/droplet.webp",
+				"alt": "Macro de uma gota de água pingando em um lago"
+			}
+		},
+		"nossoTrabalho": {
+			"marquiseAntes": {
+				"src": "assets/images/marquiseAntes.webp",
+				"alt": "Marquise antes do serviço"
+			},
+			"marquiseDepois": {
+				"src": "assets/images/marquiseDepois.webp",
+				"alt": "Marquise após o serviço"
+			},
+			"lajeAntes": {
+				"src": "assets/images/lajeAntes.webp",
+				"alt": "Laje antes do serviço"
+			},
+			"lajeDepois": {
+				"src": "assets/images/lajeDepois.webp",
+				"alt": "Laje após o serviço"
+			},
+			"caixaDaguaAntes": {
+				"src": "assets/images/caixaDaguaAntes.webp",
+				"alt": "Caixa d'Água antes do serviço"
+			},
+			"caixaDaguaDepois": {
+				"src": "assets/images/caixaDaguaDepois.webp",
+				"alt": "Caixa d'Água após o serviço"
+			},
+			"estanqueidadeUm": {
+				"src": "assets/images/estanqueidadeUm.webp",
+				"alt": "Teste de estanqueidade"
+			},
+			"estanqueidadeDois": {
+				"src": "assets/images/estanqueidadeDois.webp",
+				"alt": "Teste de estanqueidade"
+			}
+		}
+	},
+	"quemSomos": {
+		"quemSomos": {
+			"src": "assets/images/quemSomos.webp",
+			"alt": "Foto da fachada do empreendimento"
+		},
+		"nossosLideres": {
+			"paulo": {
+				"src": "assets/images/liderPaulo.webp",
+				"alt": "Foto de Paulo Bortoncello"
+			},
+			"beatriz": {
+				"src": "assets/images/liderBeatriz.webp",
+				"alt": "Foto de Beatriz Petri"
+			},
+			"aline": {
+				"src": "assets/images/liderAline.webp",
+				"alt": "Foto de Aline Bortoncello"
+			}
+		}
+	},
+	"solucoes": {
+		"intro": {
+			"src": "assets/images/solucoes.webp",
+			"alt": "Imagem representativa"
+		},
+		"tampa": {
+			"src": "assets/images/tampa.webp",
+			"alt": "Imagem de tampa produzida pela Bortoncello"
+		}
+	},
+	"contato": {
+		"intro": {
+			"src": "assets/images/contatoIntro.webp",
+			"alt": "Imagem representativa"
+		}
+	},
+	"clientes": [
+		{"src": "assets/customers/petrobras.webp", "alt": "Logo Petrobrás"},
+		{"src": "assets/customers/ufrgs.webp", "alt": "Logo UFRGS"},
+		{"src": "assets/customers/corsan.webp", "alt": "Logo Corsan"},
+		{"src": "assets/customers/pucRS.webp", "alt": "Logo PUC RS"},
+		{"src": "assets/customers/brasilit.webp", "alt": "Logo Brasilit"},
+		{"src": "assets/customers/zaffari.webp", "alt": "Logo Zaffari"},
+		{"src": "assets/customers/grupoMarista.webp", "alt": "Logo Marista"},
+		{"src": "assets/customers/laSalle.webp", "alt": "Logo La Salle"},
+		{"src": "assets/customers/hmipv.webp", "alt": "Logo HMIPV"},
+		{"src": "assets/customers/fundacaoCEEE.webp", "alt": "Logo CEEE"}
+	]
+}
