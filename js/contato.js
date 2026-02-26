@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const emailJS = {
 	api: {
-		publicKey: "mDrWsV-2nlFChx4PF",
-		service: "service_hoh4533",
-		template: "template_2bmoozl",
+		publicKey: "gpzQgM_S3IdxJdb-S",
+		service: "service_otv8tsm",
+		template: "template_7aczb5y",
 	},
 	init() {
 		emailjs.init({publicKey: this.api.publicKey});
