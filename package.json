@@ -1,0 +1,8 @@
+{
+	"name": "site-bortoncello",
+	"version": "1.0.0",
+	"scripts": {
+		"build:projetos": "node js/converter-projetos.js",
+		"build": "npm run build:projetos"
+	}
+}

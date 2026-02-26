@@ -1,0 +1,490 @@
+{
+	"header": {
+		"buttons": [
+			{"text": "Home", "link": {"$ref": "linkLibrary.internal.home"}},
+			{"text": "Quem Somos", "link": {"$ref": "linkLibrary.internal.quemSomos"}},
+			{
+				"text": "Soluções",
+				"link": {"$ref": "linkLibrary.internal.solucoes"},
+				"dropdown": [
+					{"text": "Sistemas", "link": {"$ref": "linkLibrary.internal.solucoesSistemas"}},
+					{"text": "Locais de Aplicação", "link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}},
+					{"text": "Tampa para Caixa d'Água", "link": {"$ref": "linkLibrary.internal.solucoesTampas"}},
+					{"text": "Laudos Técnicos", "link": {"$ref": "linkLibrary.internal.solucoesLaudosTecnicos"}}
+				]
+			},
+			{"text": "Clientes", "link": {"$ref": "linkLibrary.internal.clientes"}},
+			{
+				"text": "Imagens",
+				"link": {"$ref": "linkLibrary.internal.imagens"},
+				"dropdown": [
+					{"text": "Lajes", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "lajes"}},
+					{"text": "Caixas d'Água", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "caixasDagua"}},
+					{"text": "Marquises", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "marquises"}},
+					{"text": "Tampas", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "tampas"}}
+				]
+			},
+			{"text": "Contato", "link": {"$ref": "linkLibrary.internal.contato"}}
+		],
+		"whatsapp": {
+			"text": "SOLICITAR VISITA TÉCNICA",
+			"icon": {"$ref": "iconLibrary.external.whatsapp"},
+			"link": {"$ref": "linkLibrary.external.whatsapp"}
+		}
+	},
+	"footer": {
+		"first": {
+			"image": {"$ref": "iconLibrary.internal.whiteLogo"},
+			"text": "A Bortoncello Engenharia de Impermeabilização atua há mais de 20 anos no mercado, oferecendo soluções que protegem e valorizam o seu imóvel."
+		},
+		"second": {
+			"header": "LINKS RÁPIDOS",
+			"content": [
+				{"text": "Quem somos", "link": {"$ref": "linkLibrary.internal.quemSomos"}},
+				{"text": "Soluções", "link": {"$ref": "linkLibrary.internal.solucoes"}},
+				{"text": "Clientes", "link": {"$ref": "linkLibrary.internal.clientes"}},
+				{"text": "Imagens", "link": {"$ref": "linkLibrary.internal.imagens"}},
+				{"text": "Contato", "link": {"$ref": "linkLibrary.internal.contato"}}
+			]
+		},
+		"third": {
+			"header": "CONTATO",
+			"content": [{"$ref": "contactLibrary.telefone"}, {"$ref": "contactLibrary.email"}]
+		},
+		"fourth": {
+			"header": "ENDEREÇO",
+			"content": [{"$ref": "contactLibrary.endereco.rua"}, {"$ref": "contactLibrary.endereco.cidade"}]
+		},
+		"credits": "©2026 por Wagner Thiele Fracassi\nTodos direitos reservados"
+	},
+	"home": {
+		"intro": {
+			"solucoes": {
+				"header": "Soluções em\nimpermeabilização",
+				"subheader": "que protegem e valorizam seu imóvel",
+				"button": {"text": "Conheça nossos sistemas", "link": {"$ref": "linkLibrary.internal.solucoesSistemas"}}
+			},
+			"protecao": {
+				"header": "Proteção sob medida",
+				"subheader": "para lajes, caixas d'água, poços de elevador, áreas molhadas e muito mais",
+				"button": {"text": "Saiba mais", "link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}}
+			},
+			"eficiencia": {
+				"header": "Eficiência e segurança",
+				"subheader": "Execução rápida e até 10 anos de garantia",
+				"button": {"text": "Veja nossos diferenciais", "link": {"$ref": "linkLibrary.internal.diferenciais"}}
+			},
+			"laudos": {
+				"header": "Laudos técnicos",
+				"subheader": "Avaliação completa, com ART, vistoria especializada e suporte técnico",
+				"button": {"text": "Saiba mais", "link": {"$ref": "linkLibrary.internal.solucoesLaudosTecnicos"}}
+			}
+		},
+		"areasDeAplicacao": {
+			"smallHeader": "Áreas de Aplicação",
+			"header": "IMPERMEABILIZAÇÃO INTELIGENTE",
+			"buttons": [
+				{
+					"text": "MARQUISES, LAJES E TERRAÇOS",
+					"icon": {"$ref": "iconLibrary.internal.lajes"},
+					"link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}
+				},
+				{
+					"text": "CAIXAS D'AGUA",
+					"icon": {"$ref": "iconLibrary.internal.caixasDagua"},
+					"link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}
+				},
+				{
+					"text": "PISCINAS",
+					"icon": {"$ref": "iconLibrary.internal.piscinas"},
+					"link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}
+				},
+				{
+					"text": "BANHEIROS E ÁREAS MOLHADAS",
+					"icon": {"$ref": "iconLibrary.internal.areasMolhadas"},
+					"link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}
+				},
+				{
+					"text": "POÇOS DE ELEVADOR",
+					"icon": {"$ref": "iconLibrary.internal.elevador"},
+					"link": {"$ref": "linkLibrary.internal.solucoesLocaisDeAplicacao"}
+				}
+			]
+		},
+		"entendaComoFunciona": {
+			"smallHeader": "Entenda como funciona",
+			"header": "SISTEMAS QUE IMPERMEABILIZAM E EMBELEZAM",
+			"text": "Os sistemas Bortoncello combinam inovação, resistência e ótimo custo-benefício. Garantem proteção duradoura com acabamento bonito e aplicação precisa em qualquer estrutura. ",
+			"button": {
+				"text": "CONHEÇA NOSSOS SISTEMAS",
+				"link": {"$ref": "linkLibrary.internal.solucoesSistemas"}
+			}
+		},
+		"diferenciais": {
+			"smallHeader": "Diferenciais",
+			"header": "Por que a Bortoncello é diferente?",
+			"cards": [
+				{
+					"header": "VISITA TÉCNICA GRATUITA",
+					"text": "Avaliação sem compromisso, sem custo adicional para o cliente.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				},
+				{
+					"header": "EQUIPE TÉCNICA\nESPECIALIZADA",
+					"text": "Colaboradores treinados conforme NR-6, NR-18, NR-33 e NR-35.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				},
+				{
+					"header": "EXECUÇÃO RÁPIDA\nE LIMPA",
+					"text": "Sem remoção de piso, minimizando transtornos e sujeira.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				},
+				{
+					"header": "ACABAMENTO ESTÉTICO E SEGURO",
+					"text": "Resultado que garante uma superfície bonita e antiderrapante.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				},
+				{
+					"header": "SISTEMAS\nADAPTÁVEIS",
+					"text": "Materiais flexíveis que se moldam a superfícies de qualquer formato.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				},
+				{
+					"header": "GARANTIA DE\nATÉ 10 ANOS",
+					"text": "Segurança prolongada, garantindo tranquilidade a longo prazo.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				},
+				{
+					"header": "ALTA RESISTÊNCIA A\nMOVIMENTAÇÕES\nESTRUTURAIS",
+					"text": "Impermeabilizações flexíveis que acompanham dilatações e contrações da construção.",
+					"icon": {"$ref": "iconLibrary.internal.checkBranco"}
+				}
+			]
+		},
+		"clientes": {
+			"smallHeader": "Clientes",
+			"header": "Quem já conhece a nossa qualidade"
+		},
+		"nossoTrabalho": {
+			"smallHeader": "Nosso trabalho",
+			"header": "Confira os antes e depois da Bortoncello",
+			"cards": [
+				{
+					"text": "Lajes",
+					"before": {"$ref": "imageLibrary.home.nossoTrabalho.lajeAntes"},
+					"after": {"$ref": "imageLibrary.home.nossoTrabalho.lajeDepois"},
+					"link": {"$ref": "linkLibrary.internal.imagens", "hash": "lajes"}
+				},
+				{
+					"text": "Caixas D'água",
+					"before": {"$ref": "imageLibrary.home.nossoTrabalho.caixaDaguaAntes"},
+					"after": {"$ref": "imageLibrary.home.nossoTrabalho.caixaDaguaDepois"},
+					"link": {"$ref": "linkLibrary.internal.imagens", "hash": "caixasDagua"}
+				},
+				{
+					"text": "Marquises",
+					"before": {"$ref": "imageLibrary.home.nossoTrabalho.marquiseAntes"},
+					"after": {"$ref": "imageLibrary.home.nossoTrabalho.marquiseDepois"},
+					"link": {"$ref": "linkLibrary.internal.imagens", "hash": "marquises"}
+				},
+				{
+					"text": "Teste de Estanqueidade",
+					"before": {"$ref": "imageLibrary.home.nossoTrabalho.estanqueidadeUm"},
+					"after": {"$ref": "imageLibrary.home.nossoTrabalho.estanqueidadeDois"},
+					"link": {"$ref": "linkLibrary.internal.imagens"}
+				}
+			]
+		}
+	},
+	"quemSomos": {
+		"quemSomos": {
+			"header": "Quem Somos",
+			"text": [
+				"Há mais de 20 anos, a Bortoncello Engenharia de Impermeabilização busca a excelência em cada projeto, com seriedade, responsabilidade e atenção aos detalhes. Nossa história é construída sobre pilares sólidos: qualidade nos processos, dedicação no atendimento e acompanhamento técnico do orçamento à entrega final.",
+				"Acreditamos que impermeabilizar é mais do que prevenir infiltrações: é proteger o investimento de uma vida, valorizar o patrimônio construído com esforço e garantir a segurança e o bem-estar das pessoas que habitam esses espaços. Nossa razão de existir é cuidar da estrutura que sustenta histórias, unindo tecnologia e humanidade por um propósito claro: proteger, preservar e proporcionar tranquilidade."
+			]
+		},
+		"premios": {
+			"top": [
+				{
+					"header": "Prêmios que refletem nossa trajetória",
+					"text": "Em 2011, fomos reconhecidos como Destaque Gaúcho pelo conjunto de nossa atuação no setor. No ano seguinte, recebemos o 2012, na 17ª edição do prêmio promovido pela Revista Destaque Gaúcho, com apoio do programa Destaque Brasil da Band TV RS.",
+					"icon": {"$ref": "iconLibrary.internal.medalhaBranco"}
+				},
+				{
+					"header": "Rigor técnico alinhado às normas",
+					"text": "Nossa equipe é composta por profissionais qualificados, com formação específica e certificações exigidas para ambientes de risco, incluindo os treinamentos NR-6, NR-18, NR-33 e NR-35. Também utilizamos equipamentos adequados às normas de segurança e engenharia, assegurando processos seguros, eficientes e confiáveis em todas as obras.",
+					"icon": {"$ref": "iconLibrary.internal.esquadroBranco"}
+				}
+			],
+			"bottom": [
+				{
+					"header": "Missão",
+					"text": "Proteger pessoas e suas conquistas, preservando lares e negócios com soluções que unem técnica, cuidado e inovação. Nossa missão é oferecer tranquilidade, segurança e valorização aos espaços, contribuindo para um mundo com edificações mais seguras, duradouras e acolhedoras."
+				},
+				{
+					"header": "Visão",
+					"text": "Ser reconhecida como referência em impermeabilização pela eficiência, pela qualidade e pela tranquilidade em cada etapa do processo. Queremos ser lembrados não apenas pelo resultado final, mas pela confiança que transmitimos ao longo da jornada com nossos clientes."
+				},
+				{
+					"header": "Valores",
+					"textList": [
+						"Compromisso em proteger pessoas e suas histórias",
+						"Eficiência que gera confiança em cada entrega",
+						"Cuidado humano aliado à excelência técnica",
+						"Transparência que fortalece relações duradouras",
+						"Inovação que prolonga a vida dos espaços"
+					]
+				}
+			]
+		},
+		"nossosLideres": [
+			{
+				"header": "Paulo Bortoncello",
+				"subheader": "Fundador e sócio-proprietário",
+				"text": "Com experiência em gestão empresarial, atua na coordenação estratégica e administrativa da Bortoncello desde a sua fundação, contribuindo para o crescimento com foco em qualidade, responsabilidade e solidez nas relações com clientes e parceiros.",
+				"image": {"$ref": "imageLibrary.quemSomos.nossosLideres.paulo"}
+			},
+			{
+				"header": "Beatriz Petri",
+				"subheader": "Cofundadora e sócia-proprietária",
+				"text": "Atua na gestão administrativa e financeira da empresa. Com ampla experiência em organização empresarial, é responsável pelo controle dos processos internos e suporte operacional. Seu trabalho contribui diretamente para a eficiência, confiabilidade e solidez das entregas da empresa. ",
+				"image": {"$ref": "imageLibrary.quemSomos.nossosLideres.beatriz"}
+			},
+			{
+				"header": "Aline Bortoncello",
+				"subheader": "Responsável técnica - CREA/RS: 223.347",
+				"text": "Especialista em Conservação e Reabilitação de Construções, pela ISEL, Portugal. Especialista em Tecnologia da Impermeabilização - IDD Educação Avançada. MBA Gestão Estratégica de Negócios. Responsável pela supervisão técnica de todas as obras e laudos.",
+				"image": {"$ref": "imageLibrary.quemSomos.nossosLideres.aline"}
+			}
+		]
+	},
+	"solucoes": {
+		"intro": {
+			"header": "Soluções",
+			"subheader": "Confira as soluções que a Bortoncello\nEngenharia de Impermeabilização proporciona"
+		},
+		"sistemasImpermeabilizantes": {
+			"header": "Sistemas Impermeabilizantes",
+			"content": [
+				{
+					"header": "Sistema emborrachado flexível",
+					"text": "O Sistema Emborrachado Flexível é composto por uma formulação exclusiva à base de resinas e cimentos aditivados, que resultam em uma membrana elástica e impermeável. Essa composição oferece excelente aderência ao substrato e alta capacidade elástica, formando uma camada resistente e flexível que acompanha as movimentações estruturais da edificação sem perder sua integridade.\n\nÉ indicado em casos de infiltração por pressão positiva da água, ou seja, quando a umidade exerce força diretamente contra a superfície impermeabilizada.\n\nIdeal para: ",
+					"span": "LAJES | MARQUISES | COBERTURAS | FLOREIRAS | ÁREAS MOLHADAS | CAIXAS D'ÁGUA | PISCINAS",
+					"spanLink": {"$ref": "linkLibrary.internal.imagens"},
+					"icon": {"$ref": "iconLibrary.internal.emborrachadoFlexivel"}
+				},
+				{
+					"header": "Sistema cristalizante",
+					"text": "O Sistema Cristalizante atua de forma diferente: sua tecnologia é baseada em uma reação química que ocorre quando o produto entra em contato com a umidade existente na estrutura. Essa reação promove a formação de cristais que penetram nos poros do concreto, bloqueando os canais capilares e impedindo a passagem da água.\n\nÉ especialmente indicado para locais que recebem pressão negativa da água, que é quando a umidade atua no sentido oposto, ou seja, tentando se infiltrar por trás da camada impermeável.\n\nIdeal para: ",
+					"span": "POÇOS DE ELEVADOR | SUBSOLOS | CORTINAS | CISTERNAS | FUNDAÇÕES | PAREDES EM CONTATO COM O SOLO",
+					"spanLink": {"$ref": "linkLibrary.internal.imagens"},
+					"icon": {"$ref": "iconLibrary.internal.sistemaCristalizante"}
+				}
+			]
+		},
+		"locaisDeAplicacao": {
+			"header": "Locais de Aplicação",
+			"subheader": "Para cada ambiente, uma solução ideal",
+			"content": [
+				{
+					"header": "Áreas Horizontais Externas",
+					"subheader": "Lajes, coberturas, terraços, marquises e floreiras",
+					"text": "Essas superfícies ficam expostas às variações do clima e acumulam água da chuva, sofrendo com infiltrações por pressão positiva. São áreas que exigem sistemas altamente flexíveis, que acompanham as movimentações da estrutura e garantem proteção contínua, sem necessidade de remoção do revestimento existente.",
+					"icon": {"$ref": "iconLibrary.internal.lajes"}
+				},
+				{
+					"header": "Áreas de armazenamento\nde água",
+					"subheader": "Caixas d'água e tanques de retenção",
+					"text": "Ambientes destinados ao armazenamento de líquidos requerem impermeabilização interna, capaz de resistir à umidade constante e garantir estanqueidade total. Os sistemas aplicados formam uma barreira contínua, segura e higiênica, protegendo tanto o reservatório quanto a estrutura do edifício.",
+					"icon": {"$ref": "iconLibrary.internal.caixasDagua"}
+				},
+				{
+					"header": "Áreas molhadas internas",
+					"subheader": "Banheiros, vestiários e áreas de serviço",
+					"text": "Presentes em ambientes internos, essas áreas são frequentemente lavadas ou expostas à água. A impermeabilização é aplicada antes do acabamento final, formando uma camada protetora que impede a passagem de umidade para andares inferiores ou estruturas vizinhas, evitando infiltrações e danos futuros.",
+					"icon": {"$ref": "iconLibrary.internal.areasMolhadas"}
+				},
+				{
+					"header": "Estruturas em contato com o solo",
+					"subheader": "Poços de elevador, subsolos, cortinas, fundações, cisternas",
+					"text": "Estruturas subterrâneas estão sujeitas à infiltração por pressão negativa, quando a água tenta penetrar do solo para o interior da construção. A solução ideal nesses casos é o sistema cristalizante, que atua internamente nos poros do concreto, bloqueando permanentemente a passagem da umidade. ",
+					"icon": {"$ref": "iconLibrary.internal.elevador"}
+				},
+				{
+					"header": "Piscinas e espelhos d'Água",
+					"subheader": "Piscinas residenciais ou coletivas e fontes decorativas",
+					"text": "Por estarem em contato constante com a água e exigirem um acabamento estético, esses espaços precisam de impermeabilização de alta performance, resistente à umidade e ao cloro. O sistema é aplicado por baixo do revestimento, garantindo vedação total e alta durabilidade. ",
+					"icon": {"$ref": "iconLibrary.internal.piscinas"}
+				}
+			]
+		},
+		"tampas": {
+			"image": {"$ref": "imageLibrary.solucoes.tampa"},
+			"subheader": "Confecção de",
+			"header": "Tampas para caixa d'água",
+			"text": "A Bortoncello também oferece o serviço de confecção de tampas sob medida para caixas d'água, garantindo vedação eficiente, segurança e durabilidade. As tampas são produzidas em PRFV (plástico reforçado com fibra de vidro), material leve, resistente e imune à corrosão, ideal para ambientes úmidos e expostos. O acabamento de alta qualidade, aliado à fixação direta na laje e ao uso de aço inox nos componentes, assegura uma solução prática, higiênica e de excelente custo-benefício.",
+			"textList": [
+				"Produzidas sob medida em PRFV (fiberglass)",
+				"Fixação firme e segura diretamente na laje",
+				"Puxadores e ganchos em aço inox, com alta durabilidade",
+				"Excelente vedação contra insetos, sujeira e contaminantes",
+				"Resistentes à umidade, sol, corrosão e variações climáticas",
+				"Solução higiênica, leve e de fácil manuseio",
+				"Ótimo custo-benefício com longa vida útil"
+			],
+			"button": {"text": "Veja a galeria", "link": {"$ref": "linkLibrary.internal.imagens"}}
+		},
+		"laudosTecnicos": {
+			"top": {
+				"header": "Laudos Técnicos",
+				"content": [
+					{
+						"header": "LTIP",
+						"subheader": "Laudo Técnico de Inspeção Predial",
+						"text": "O LTIP é um documento elaborado por profissional habilitado, que avalia as condições de conservação, segurança, manutenção e estabilidade de uma edificação. Ele identifica falhas, riscos e patologias que possam comprometer o desempenho da estrutura ou colocar em risco os usuários.\n\nEm cidades como Porto Alegre, o LTIP é obrigatório para edificações com mais de cinco anos e deve ser renovado a cada cinco anos, conforme a Lei Complementar nº 284/2023. A ausência do laudo pode resultar em multas ao condomínio e responsabilização legal do síndico em caso de acidentes."
+					},
+					{
+						"header": "LEE",
+						"subheader": "Laudo Técnico de Estabilidade Estrutural",
+						"text": "O LEE tem como foco a verificação da segurança e integridade de elementos específicos da construção, como marquises, sacadas, fachadas e muros. O objetivo é detectar patologias estruturais — como fissuras, deslocamentos e armaduras expostas — que possam comprometer a estabilidade da edificação. \n\nTambém em Porto Alegre, o LEE é obrigatório a cada três anos, conforme a legislação vigente. A falta desse laudo dentro do prazo legal pode acarretar penalidades, incluindo multas e medidas administrativas. "
+					}
+				]
+			},
+			"bottom": [
+				{
+					"header": "Procedimento e entrega",
+					"text": [
+						"Levantamento e análise da documentação técnica do condomínio",
+						"Vistoria in loco por profissional habilitado",
+						"Registro fotográfico e diagnóstico técnico detalhado",
+						"Recomendações para manutenção, correções ou intervenções",
+						"Emissão do laudo com ART (Anotação de Responsabilidade Técnica)",
+						"Protocolo junto à prefeitura, quando exigido pela legislação local"
+					]
+				},
+				{
+					"header": "Vantagens dos laudos",
+					"text": [
+						"Atendimento técnico especializado",
+						"Laudos completos e claros para síndicos e gestores",
+						"Diagnóstico preventivo que evita problemas futuros",
+						"Valorização do imóvel e aumento da segurança",
+						"Documentação que respalda decisões administrativas",
+						"Conformidade legal e tranquilidade jurídica"
+					]
+				}
+			]
+		}
+	},
+	"imagens": {
+		"header": "Galeria de Imagens",
+		"subheader": "Veja a qualidade dos nossos serviços através dos antes e depois",
+		"buttons": [
+			{"text": "Todas", "filtro": "todas"},
+			{"text": "Lajes e Coberturas", "filtro": "lajes"},
+			{"text": "Caixas d'Água", "filtro": "caixasDagua"},
+			{"text": "Marquises", "filtro": "marquises"},
+			{"text": "Tampas", "filtro": "tampas"}
+		]
+	},
+	"contato": {
+		"intro": {
+			"header": "Contato",
+			"subheader": "Entre em contato conosco através de nossos canais oficiais"
+		},
+		"faleConosco": {
+			"smallHeader": "Fale com a gente",
+			"header": "Solicite uma visita técnica gratuita",
+			"content": [
+				{
+					"header": "Whatsapp",
+					"subheader": {"$ref": "contactLibrary.telefone"},
+					"text": "Atendimento rápido e direto"
+				},
+				{
+					"header": "E-Mail",
+					"subheader": {"$ref": "contactLibrary.email"},
+					"text": "Resposta em até 24 horas"
+				},
+				{
+					"header": "Endereço",
+					"subheader": {"$ref": "contactLibrary.enderecoAlt"},
+					"text": "Atendemos toda a região metropolitana"
+				}
+			]
+		},
+		"formulário": {
+			"campos": [
+				{
+					"label": "Nome Completo *",
+					"id": "name",
+					"name": "name",
+					"placeholder": "Digite seu nome",
+					"type": "text",
+					"required": true,
+					"minLength": 3,
+					"maxLength": 100,
+					"pattern": "^[A-Za-zÀ-ÖØ-öø-ÿ\\s]+$",
+					"title": "Por favor, insira apenas letras e espaços"
+				},
+				{
+					"label": "E-mail *",
+					"id": "email",
+					"name": "email",
+					"placeholder": "seuemail@email.com",
+					"type": "email",
+					"required": true,
+					"maxLength": 255,
+					"pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+					"title": "Por favor, insira um e-mail válido"
+				},
+				{
+					"label": "Telefone",
+					"id": "phone",
+					"name": "phone",
+					"placeholder": "(51) 99999-9999",
+					"type": "tel",
+					"required": false,
+					"minLength": 10,
+					"maxLength": 20,
+					"pattern": "^(\\d+|\\(\\d{2}\\)\\s\\d{4,5}-\\d{4})$",
+					"title": "Formato: (51) 99999-9999 ou 51999999999"
+				},
+				{
+					"label": "Título",
+					"id": "title",
+					"name": "title",
+					"placeholder": "Digite o assunto da mensagem",
+					"required": false,
+					"minLength": 10,
+					"maxLength": 100,
+					"title": "Mensagem deve ter entre 10 e 100 caracteres"
+				},
+				{
+					"label": "Mensagem *",
+					"id": "message",
+					"name": "message",
+					"placeholder": "Digite sua mensagem",
+					"required": true,
+					"minLength": 20,
+					"maxLength": 5000,
+					"title": "Mensagem deve ter entre 20 e 5000 caracteres"
+				}
+			],
+			"sendButton": {"text": "Enviar mensagem"}
+		},
+		"emailPopup": {
+			"success": {
+				"header": "Sucesso",
+				"text": "Sua mensagem foi enviada com sucesso.",
+				"icon": {"$ref": "iconLibrary.internal.check"}
+			},
+			"failure": {
+				"header": "Erro",
+				"text": "Houve um erro no envio de sua mensagem.\nTente novamente mais tarde ou envie-nos um e-mail.",
+				"icon": {"$ref": "iconLibrary.internal.error"}
+			}
+		}
+	}
+}

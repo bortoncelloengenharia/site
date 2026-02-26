@@ -1,0 +1,110 @@
+{
+	"internal": {
+		"areasMolhadas": {
+			"src": "assets/icons/areasMolhadas.png",
+			"alt": "Ícone representativo"
+		},
+		"caixasDagua": {
+			"src": "assets/icons/caixasDagua.png",
+			"alt": "Ícone representativo"
+		},
+		"check": {
+			"src": "assets/icons/check.png",
+			"alt": "Ícone representativo"
+		},
+		"elevador": {
+			"src": "assets/icons/elevador.png",
+			"alt": "Ícone representativo"
+		},
+		"emborrachadoFlexivel": {
+			"src": "assets/icons/emborrachadoFlexivel.png",
+			"alt": "Ícone representativo"
+		},
+		"esquadro": {
+			"src": "assets/icons/esquadro.png",
+			"alt": "Ícone representativo"
+		},
+		"lajes": {
+			"src": "assets/icons/lajes.png",
+			"alt": "Ícone representativo"
+		},
+		"medalha": {
+			"src": "assets/icons/medalha.png",
+			"alt": "Ícone representativo"
+		},
+		"piscinas": {
+			"src": "assets/icons/piscinas.png",
+			"alt": "Ícone representativo"
+		},
+		"sistemaCristalizante": {
+			"src": "assets/icons/sistemaCristalizante.png",
+			"alt": "Ícone representativo"
+		},
+		"areasMolhadasBranco": {
+			"src": "assets/icons/areasMolhadasBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"caixasDaguaBranco": {
+			"src": "assets/icons/caixasDaguaBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"checkBranco": {
+			"src": "assets/icons/checkBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"elevadorBranco": {
+			"src": "assets/icons/elevadorBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"emborrachadoFlexivelBranco": {
+			"src": "assets/icons/emborrachadoFlexivelBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"esquadroBranco": {
+			"src": "assets/icons/esquadroBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"lajesBranco": {
+			"src": "assets/icons/lajesBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"medalhaBranco": {
+			"src": "assets/icons/medalhaBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"piscinasBranco": {
+			"src": "assets/icons/piscinasBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"sistemaCristalizanteBranco": {
+			"src": "assets/icons/sistemaCristalizanteBranco.png",
+			"alt": "Ícone representativo"
+		},
+		"error": {
+			"src": "assets/icons/erro.png",
+			"alt": "Ícone de erro"
+		},
+		"whiteLogo": {
+			"src": "assets/icons/logo_white.png",
+			"alt": "Logo Bortoncello Engenharia"
+		},
+		"sidebarButton": {
+			"src": "assets/icons/menuBranco.webp",
+			"alt": "Botão da barra lateral"
+		}
+	},
+	"external": {
+		"linkedin": {
+			"src": "assets/icons/linkedin.webp",
+			"alt": "Ícone LinkedIn"
+		},
+		"instagram": {
+			"src": "assets/icons/instagram.webp",
+			"alt": "Ícone Instagram"
+		},
+		"whatsapp": {
+			"src": "assets/icons/whatsapp.png",
+			"alt": "Ícone WhatsApp"
+		}
+	}
+}

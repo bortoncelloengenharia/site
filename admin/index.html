@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gerenciar Projetos - Antes/Depois</title>
+
+		<link rel="stylesheet" href="../css/main.css?v=1.0" />
+
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	</head>
+
+	<body>
+		<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+		<script>
+			CMS.registerPreviewTemplate("galeriaDeImagens", ({entry}) => {
+				const before = entry.getIn(["data", "antes"]);
+				const after = entry.getIn(["data", "depois"]);
+
+				return `
+          <div class="imageCard boxShadow visible" style="width:400px;margin:20px auto;">
+            <div class="imageCardContainer">
+              <img src="${before || ""}" draggable="false" class="unselectable">
+              <img src="${after || ""}" draggable="false" class="unselectable after">
+              <div class="imageCardSlider"></div>
+            </div>
+            <div class="imageCardLabel">
+              <p>Antes</p>
+              <p>Depois</p>
+            </div>
+          </div>
+        `;
+			});
+		</script>
+	</body>
+</html>

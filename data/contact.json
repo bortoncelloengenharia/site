@@ -1,0 +1,24 @@
+{
+	"telefone": {
+		"text": "51 3059 9200",
+		"link": {"$ref": "linkLibrary.external.whatsapp"}
+	},
+	"email": {
+		"text": "contato@bortoncelloengenharia.com.br",
+		"link": {"$ref": "linkLibrary.external.email"}
+	},
+	"endereco": {
+		"rua": {
+			"text": "Rua João Nicolau, 166",
+			"link": {"$ref": "linkLibrary.external.googleMaps"}
+		},
+		"cidade": {
+			"text": "Canoas / RS",
+			"link": {"$ref": "linkLibrary.external.googleMaps"}
+		}
+	},
+	"enderecoAlt": {
+		"text": "Rua João Nicolau, 166\nCanoas / RS",
+		"link": {"$ref": "linkLibrary.external.googleMaps"}
+	}
+}
