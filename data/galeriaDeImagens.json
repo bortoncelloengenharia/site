@@ -116,5 +116,29 @@
       },
       "ordem": 1
     }
+  ],
+  "outros": [
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/outros1A.webp",
+        "alt": "Imagem de elevador antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/outros1D.webp",
+        "alt": "Imagem de elevador depois"
+      },
+      "ordem": 1
+    },
+    {
+      "antes": {
+        "src": "assets/images/galeriaImagens/outros2A.webp",
+        "alt": "Imagem de piscina antes"
+      },
+      "depois": {
+        "src": "assets/images/galeriaImagens/outros2D.webp",
+        "alt": "Imagem de piscina depois"
+      },
+      "ordem": 2
+    }
   ]
 }

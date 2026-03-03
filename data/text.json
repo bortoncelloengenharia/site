@@ -21,7 +21,8 @@
 					{"text": "Lajes", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "lajes"}},
 					{"text": "Caixas d'Água", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "caixasDagua"}},
 					{"text": "Marquises", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "marquises"}},
-					{"text": "Tampas", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "tampas"}}
+					{"text": "Tampas", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "tampas"}},
+					{"text": "Outros", "link": {"$ref": "linkLibrary.internal.imagens", "hash": "outros"}}
 				]
 			},
 			{"text": "Contato", "link": {"$ref": "linkLibrary.internal.contato"}}
@@ -385,7 +386,8 @@
 			{"text": "Lajes e Coberturas", "filtro": "lajes"},
 			{"text": "Caixas d'Água", "filtro": "caixasDagua"},
 			{"text": "Marquises", "filtro": "marquises"},
-			{"text": "Tampas", "filtro": "tampas"}
+			{"text": "Tampas", "filtro": "tampas"},
+			{"text": "Outros", "filtro": "outros"}
 		]
 	},
 	"contato": {

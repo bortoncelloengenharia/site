@@ -33,6 +33,7 @@ collections:
              - {label: "Caixas d'Água", value: "caixasDagua"}
              - {label: "Marquises", value: "marquises"}
              - {label: "Tampas", value: "tampas"}
+             - {label: "Outros", value: "outros"}
 
         # TÍTULO (opcional)
         - label: "Título do Projeto"
