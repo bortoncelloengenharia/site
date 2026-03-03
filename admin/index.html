@@ -12,26 +12,5 @@
 
 	<body>
 		<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-
-		<script>
-			CMS.registerPreviewTemplate("galeriaDeImagens", ({entry}) => {
-				const before = entry.getIn(["data", "antes"]);
-				const after = entry.getIn(["data", "depois"]);
-
-				return `
-          <div class="imageCard boxShadow visible" style="width:400px;margin:20px auto;">
-            <div class="imageCardContainer">
-              <img src="${before || ""}" draggable="false" class="unselectable">
-              <img src="${after || ""}" draggable="false" class="unselectable after">
-              <div class="imageCardSlider"></div>
-            </div>
-            <div class="imageCardLabel">
-              <p>Antes</p>
-              <p>Depois</p>
-            </div>
-          </div>
-        `;
-			});
-		</script>
 	</body>
 </html>
