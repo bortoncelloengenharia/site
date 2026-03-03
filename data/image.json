@@ -25,20 +25,12 @@
 			}
 		},
 		"nossoTrabalho": {
-			"marquiseAntes": {
-				"src": "assets/images/marquiseAntes.webp",
-				"alt": "Marquise antes do serviço"
-			},
-			"marquiseDepois": {
-				"src": "assets/images/marquiseDepois.webp",
-				"alt": "Marquise após o serviço"
-			},
 			"lajeAntes": {
-				"src": "assets/images/lajeAntes.webp",
+				"src": "assets/images/galeriaImagens/lajes53A.webp",
 				"alt": "Laje antes do serviço"
 			},
 			"lajeDepois": {
-				"src": "assets/images/lajeDepois.webp",
+				"src": "assets/images/galeriaImagens/lajes53D.webp",
 				"alt": "Laje após o serviço"
 			},
 			"caixaDaguaAntes": {
@@ -48,6 +40,14 @@
 			"caixaDaguaDepois": {
 				"src": "assets/images/caixaDaguaDepois.webp",
 				"alt": "Caixa d'Água após o serviço"
+			},
+			"marquiseAntes": {
+				"src": "assets/images/marquiseAntes.webp",
+				"alt": "Marquise antes do serviço"
+			},
+			"marquiseDepois": {
+				"src": "assets/images/marquiseDepois.webp",
+				"alt": "Marquise após o serviço"
 			},
 			"estanqueidadeUm": {
 				"src": "assets/images/estanqueidadeUm.webp",
