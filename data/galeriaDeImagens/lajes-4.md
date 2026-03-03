@@ -3,7 +3,7 @@ categoria: lajes
 titulo: Laje 4
 antes: /assets/images/galeriaImagens/11a94da7-db3d-4c76-a422-413c4069.webp
 alt_antes: Imagem antes
-depois: /assets/images/galeriaImagens/11a94da7-db3d-4c76-a422-413c4069.webp
+depois: /assets/images/galeriaImagens/19cea6b9-84a4-406e-8e65-ccf5ecaf.webp
 alt_depois: Imagem depois
-ordem: 4
+ordem: 1
 ---
